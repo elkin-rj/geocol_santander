@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa de Colegios de Bucaramanga</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>#map { height: 600px; }</style>
+</head>
+<body>
+
+<h2>Mapa de Colegios Públicos - Bucaramanga</h2>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  var map = L.map('map').setView([7.1254, -73.1198], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }).addTo(map);
+
+  var geojsonData = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "ANDRES PAÉZ DE SOTOMAYOR",
+        "codigo_dane": 168001002625,
+        "correo": "ieandrespaez@bucaramanga.edu.co",
+        "direccion": "Calle 37 N° 1 – 97 B. La joya\nCalle 39 No. 4 – 36-La Joya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.136991,
+          7.113044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "AURELIO MARTINEZ MUTIS",
+        "codigo_dane": 18001000550,
+        "correo": "ieaureliomartinez@bucaramanga.edu.co",
+        "direccion": "Av. de los estudiantes N° 9 – 313\nCalle 56 # 21-52\nCalle 68 #18-29 Barrio La Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12362400341358,
+          7.106318753489445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "BICENTENARIO",
+        "codigo_dane": 168001007627,
+        "correo": "iebicentenario@bucaramanga.edu.co",
+        "direccion": "Carrera 43 N° 34ª – 11 B. Álvarez\nCL 34 45 38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10714438621554,
+          7.126415049895371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CAMACHO CARREÑO",
+        "codigo_dane": 168001001203,
+        "correo": "iecamachocarreno@bucaramanga.edu.co",
+        "direccion": "Calle 41 # 8-15\nCalle 35 N° 6 – 68 B. Alfonso López"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.131144,
+          7.114193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CAMPO HERMOSO",
+        "codigo_dane": 168001001173,
+        "correo": "iecampohermoso@bucaramanga.edu.co",
+        "direccion": "Carrera 9 A occ N° 49 – 24 Barrio Campo\nHermoso\nCalle 47 # 10 occ -68 Barrio Campo\nHermoso\nCarera Principal # 1 Barrio Jose Antonio\nGalán\n100 KM 2 Vía Chimita, Barrio Rincón de\nla Paz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1390894933754,
+          7.102735500715504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CAFE MADRID",
+        "codigo_dane": 168001003184,
+        "correo": "iecafemadrid@bucaramanga.edu.co",
+        "direccion": "Carrera 8B N° 35AN – 45 Barrio Café\nMadrid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.14036049095479,
+          7.163317562430714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "INSTITUCION EDUCATIVA RURAL BOSCONIA",
+        "codigo_dane": 268001001313,
+        "correo": "iebosconia@bucaramanga.edu.co",
+        "direccion": "Km 18 Vía la Aguada Vereda Cuchilla.\nAlta. Km 12 Vía Bucaramanga Matanza\nVereda La Capilla.\nKm 25 Vía la Aguada Charta Finca El\nHorno Vereda Cuchilla Alta.\nKm 20 Vía a Tona Finca La Meseta\nVereda Monserrate.\nCarrera 32 # 39N – 27 Barrio Bosconia.\nKm 4 Vía al cemento Vereda Los Santos.\nKm 15 Vía a Bosconia Matanza Vereda\nSanta Rita."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.104118,
+          7.180275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CENTRO EDUCATIVO RURAL EL PAULON",
+        "codigo_dane": 268001004380,
+        "correo": "ieelpaulon@bucaramanga.edu.co",
+        "direccion": "Km. 2 vía al mar, finca los sitios Sector la\ntorre, vda El Paulón"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.14402143141017,
+          7.175566354281602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CENTRO EDUCATIVO RURAL LA MALAÑA",
+        "codigo_dane": " 268001002301",
+        "correo": "ielamalana@bucaramanga.edu.co",
+        "direccion": "Km 1 Vía al acueducto Vda la Malaña\nKM 6 Via Acueducto Vereda El Gualilo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10109658608754,
+          7.142936873130637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CLAVERIANO FE Y ALEGRIA",
+        "codigo_dane": 168001007856,
+        "correo": "ieclaveriano@bucaramanga.edu.co",
+        "direccion": "Calle 25 AN # 20 A - 40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.131698,
+          7.161148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CLUB UNIÓN",
+        "codigo_dane": 168001001483,
+        "correo": "ieclubunion@bucaramanga.edu.co",
+        "direccion": "Calle 3 A N° 10 – 36 B. San Rafael\nCarrera 14 # 2-38 Barrio Norte\nKM 7, Vía al mar Barrio Los Colorados\nCalle 20 # 16 A -116 Barrio Las Olas\nBajas\nCarrera 5 # 45-05 Barrio Café Madrid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.135128,
+          7.140006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "I.E DE SANTANDER",
+        "codigo_dane": 168001000444,
+        "correo": "iedesantander@bucaramanga.edu.co",
+        "direccion": "Calle 9 # 25 – 67 Barrio La Universidad.\nCarrera 32 # 16N-28 Km 3 Vía Matanza.\nCalle 5 # 20-14 Barrio Comuneros.\nCalle 1 # 2-23 Barrio La Independencia.           Carrera 28# 14-20 Barrio San Alonso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.113003,
+          7.104354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "COMUNEROS",
+        "codigo_dane": 168001001688,
+        "correo": "ieloscomuneros@bucaramanga.edu.co",
+        "direccion": "Carrera 18 N° 10 – 06 Barrio Comuneros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.128677,
+          7.136283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "ESCUELA NORMAL SUPERIOR DE BUCARAMANGA",
+        "codigo_dane": 168001000525,
+        "correo": "ienormal@bucaramanga.edu.co",
+        "direccion": "Carrera 27 N° 29 – 69 Barrio La Aurora\nCarrera 30 # 27-167 Barrio La Aurora\nCalle 31 # 26-45 Barrio La Aurora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11761528795951,
+          7.127536849842892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "FRANCISCO DE PAULA SANTANDER",
+        "codigo_dane": 168001003010,
+        "correo": "iefranciscodepaula@bucaramanga.edu.co",
+        "direccion": "Carrera 5 Occ # 30 – 61 B. Santander\nCalle 26 # 2-11 Barrio La Feria\nCalle 31 # 13 occ -050 Barrio Don Bosco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13804,
+          7.116861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "GABRIELA MISTRAL",
+        "codigo_dane": NaN,
+        "correo": "iegabrielamistral@bucaramanga.edu.co",
+        "direccion": "Calle 69 A # 27 – 30 Barrio La Salle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11287,
+          7.099766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "GUSTAVO COTE URIBE",
+        "codigo_dane": 168001006396,
+        "correo": "iecoteuribe@bucaramanga.edu.co",
+        "direccion": "Carrera 5 # 15 – 23 Barrio María Paz\nNorte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.122416,
+          7.08292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "INEM CUSTODIO GARCIA ROVIRA",
+        "codigo_dane": 168001003591,
+        "correo": "ieinem@bucaramanga.edu.co",
+        "direccion": "Carrera 19 A N° 104 – 56 Barrio Provenza\nCalle 104 # 16 A -35 Barrio El Rocio\nCarrera 11D # 104ª-22 Barrio Manuela\nBeltran\nCarrera 15 A # 107-35 Barrio Dangond\nCalle 91 # 25-82 Barrio Diamante II\nCalle 106 # 15 C -40 Barrio Toledo Plata\nCarrera 32 # 87-86 Barrio San Martin\nCalle 67 A # 9-61 Barrio San Pablo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.118622,
+          7.085631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "INSTITUTO POLITECNICO",
+        "codigo_dane": 168001000410,
+        "correo": "iepolitecnico@bucaramanga.edu.co",
+        "direccion": "Calle 55 Diag. 14 – 106 Barrio Ciudadela\nReal de Minas\nCalle 28 # 13-61\nCarrera 7 # 29-58\nCalle 24 # 6-42 Barrio Girardot.                                Calle 64 # 10-40 Barrio Ciudadela Real\nde Minas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.10695,
+          -73.122992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "INSTITUTO SANTO ANGEL",
+        "codigo_dane": 168001000834,
+        "correo": "iesantoangel@bucaramanga.edu.co",
+        "direccion": "Calle 9N # 18c – 04 Barrio Villa Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1308080655219,
+          7.150375885242316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "INSTITUTO TECNICO NACIONAL DE COMERCIO",
+        "codigo_dane": 168001000398,
+        "correo": "ienacionaldecomercio@bucaramanga.edu.co",
+        "direccion": "Calle 55 Diagonal 14 – 54 Barrio\nCiudadela Real de Minas\nCarrera 13 # 42-46 Barrio El Centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12276152261144,
+          7.107217160049561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "JORGE ARDILA DUARTE",
+        "codigo_dane": 168001005420,
+        "correo": "ieardiladuarte@bucaramanga.edu.co",
+        "direccion": "Calle 53 # 21 – 25 Barrio La Concordia\nCalle 50 # 23-44 Barrio La Concordia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1170203926024,
+          7.11148750418493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "JORGE ELIECER GAITAN",
+        "codigo_dane": 168001002227,
+        "correo": "iegaitan@bucaramanga.edu.co",
+        "direccion": "Calle 16 # 9 – 54 Barrio Gaitán\nCarrera 12 # 16-42 Barrio Gaitán"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13471519360907,
+          7.130599342194928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "JOSE CELESTINO MUTIS",
+        "codigo_dane": 168001002633,
+        "correo": "iecelestinomutis@bucaramanga.edu.co",
+        "direccion": "Carrera 3 W # 57 – 14 Barrio Mutis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13094061958941,
+          7.100522691258669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LA JUVENTUD",
+        "codigo_dane": 168001003010,
+        "correo": "ielajuventud@bucaramanga.edu.co",
+        "direccion": "Calle 5 N # 19 A – 12 Barrio La Juventud\nCarrera 26 # 12 NB Barrio La Esperanza\nIII"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12833554842442,
+          7.144988494414545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LAS AMERICAS",
+        "codigo_dane": 168001001025,
+        "correo": "ielasamericas@bucaramanga.edu.co",
+        "direccion": "Calle 33 # 36-16 Barrio Alvarez\nCalle 70 # 55-226 Vereda Santa Bárbara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10974490689283,
+          7.128077819445392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LA LIBERTAD",
+        "codigo_dane": 168001001157,
+        "correo": "ielalibertad@bucaramanga.edu.co",
+        "direccion": "Cra 31 # 101-24 Barrio La Libertad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10770606191838,
+          7.093650680520382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LICEO PATRIA",
+        "codigo_dane": 168001001408,
+        "correo": "ieliceopatria@bucaramanga.edu.co",
+        "direccion": "Carrera 33 #18 – 53 Barrio San Alonso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11238996191804,
+          7.131402093070306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LOS COLORADOS",
+        "codigo_dane": 168001007821,
+        "correo": "ieloscolorados@bucaramanga.edu.co",
+        "direccion": "Carrera 28ª N° 49 – 50 Los Colorados"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1294309754111,
+          7.174975689333488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "LUIS CARLOS GALAN SARMIENTO",
+        "codigo_dane": 168001005691,
+        "correo": "iegalansarmiento@bucaramanga.edu.co",
+        "direccion": "Calle 59 # 38 W – 00 Barrio Estoraques"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.14208925822106,
+          7.095660439370938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "MAIPORE",
+        "codigo_dane": 168001000533,
+        "correo": "iemaipore@bucaramanga.edu.co",
+        "direccion": "Calle 23 Norte # 12 – 58 Barrio Kennedy\nCalle 7 # 10-38 Barrio Kennedy\nCalle 7 # 10-40 Barrio Kennedy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13569709047704,
+          7.154781597164828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "MEDALLA MILAGROSA",
+        "codigo_dane": 168001002714,
+        "correo": "iemedallamilagrosa@bucaramanga.edu.co",
+        "direccion": "Carrera 7B # 103 – 24 Barrio Porvenir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13150233308293,
+          7.085225031141158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "NUESTRA SEÑORA DE FATIMA",
+        "codigo_dane": 168001000401,
+        "correo": "iefatima@bucaramanga.edu.co - mebuc.nusefa-rec@policia.gov.co",
+        "direccion": "Carrera 12 # 41 – 69 Barrio García Rovira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12820541958925,
+          7.115497740590334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "NUESTRA SEÑORA DEL PILAR",
+        "codigo_dane": 168001002421,
+        "correo": "ieelpilar@bucaramanga.edu.co",
+        "direccion": "Av. de los Estudiantes # 9 – 323 Barrio\nCiudadela Real de Minas\nCalle 65C # 6ª-08 Barrio Los Canelos\nCalle 65 # 11W – Esquina Barrio Monte\nRedondo\nCalle 45 # 1-32 Barrio Campo Hermoso\nCarrera 10 C # 68 A -13 Barrio Pablo VI\nCarrera 13 # 16-46 Barrio Gaitán"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12378074712866,
+          7.106534563823875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "ORIENTE MIRAFLORES",
+        "codigo_dane": 168001006205,
+        "correo": "ieorientemiraflores@bucaramanga.edu.co",
+        "direccion": "Km vía Pamplona Km 2 # 50 – 46 Barrio\nAlbania\nCarrera 48 # 27-03 Barrio Albania\nCalle 20 # 53-36 Barrio Miraflores\nCalle 17 # 57-35 Barrio Buenos Aires\nCalle 21 # 66-46 Barrio Buenavista\nVía a Pamplona KM 5Vereda San Jose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.10539315361535,
+          7.134272802358032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "PILOTO SIMON BOLIVAR",
+        "codigo_dane": 168001004580,
+        "correo": "iepiloto@bucaramanga.edu.co",
+        "direccion": "Carrera 20 N° 11 - 83"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12656081880567,
+          7.135391070575092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "PROMOCIÓN SOCIAL DEL NORTE",
+        "codigo_dane": 168001004962,
+        "correo": "iepromocionsocial@bucaramanga.edu.co",
+        "direccion": "Carrera 22B # 1N- 61 Barrio San\nCristóbal\nCalle 1 # 21-17 Barrio San Cristóbal\nCarrera 2 A # 7-40 Barrio Ciudad Norte\nCarrera 22 # 1N -20 Barrio Transición\nVía Café Madrid Km 2 Barrio Regaderos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12634710716976,
+          7.144152383829944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "PROVENZA",
+        "codigo_dane": 680010001094,
+        "correo": "ieprovenza@bucaramanga.edu.co",
+        "direccion": "Carrera 23 # 109 – 07 Barrio Provenza\nSector 5 Parte Baja Barrio El Cristal\nCalle 108 # 23 B -04Barrio Provenza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11318395051167,
+          7.082877473309315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "RURAL VIJAGUAL",
+        "codigo_dane": 254385000288,
+        "correo": "ievijagual@bucaramanga.edu.co",
+        "direccion": "Km 10 Vía al mar Vereda Vijagual.\nVereda La Esmeralda.\nVereda La Pastora.\nVereda San Cayetano.\nVereda San Ignacio.\nVereda San Pedro Alto.\nVereda San Pedro Bajo.\nVereda El Nogal.\nVereda El Inicio."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12971053229828,
+          7.203283087699637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "SAN FRANCISCO DE ASIS",
+        "codigo_dane": 168001002421,
+        "correo": "iefranciscodeasis@bucaramanga.edu.co",
+        "direccion": "Calle 30 N° 1 occ – 01 Barrio Santander"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13692981880595,
+          7.118376054185004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "SAN JOSE DE LA SALLE",
+        "codigo_dane": 168001002579,
+        "correo": "iesanjosedelasalle@bucaramanga.edu.co",
+        "direccion": "Carrera 21 N° 68 – 45 B. La Victoria\nCalle 65# 17-29 Barrio La Victoria\nCarrera 18 # 54-85"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11416063802469,
+          7.100942594338932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "SANTA MARIA GORETTI",
+        "codigo_dane": 168001001947,
+        "correo": "iegoretti@bucaramanga.edu.co",
+        "direccion": "Calle del estudiante 9 – 67 Ciudadela\nReal de Minas\nCarrera 17C# 62-21 Barrio La Ceiba\nCalle 65 # 18-08 Barrio La Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12411436191832,
+          7.105345107606861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "TECNICO DAMASO ZAPATA",
+        "codigo_dane": 168001001921,
+        "correo": "iedamasozapata@bucaramanga.edu.co",
+        "direccion": "Calle 10 # 28 – 77.\nCalle 7ª # 38-48.\nCalle 16N # 24-23 Barrio Villa Helena.\nCalle 14 # 27-24 Barrio San Alonso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.11863317428204,
+          7.137869818744694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "TECNICO RAFAEL GARCIA HERREROS",
+        "codigo_dane": 168001000088,
+        "correo": "iegarciaherreros@bucaramanga.edu.co",
+        "direccion": "Carrera 1D # N-81 Barrio Minuto de Dios."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13505681695068,
+          7.14908810375404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "TECNICO EMPRESARIAL JOSE MARIA ESTEVEZ",
+        "codigo_dane": NaN,
+        "correo": "iejosemariaestevez@bucaramanga.edu.co",
+        "direccion": "Calle 51 # 13 – 97 Barrio San Miguel."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12559038911822,
+          7.109386434511165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "TECNOLOGICO SALESIANO ELOY VALENZUELA",
+        "codigo_dane": 168001004342,
+        "correo": "iesalesiano@bucaramanga.edu.co",
+        "direccion": "Av. Quebrada seca N° 11 – 85 Barrio\nGirardot.\nCarrera 11# 28-80 Barrio Granada.\nCalle 25 # 6-03 Barrio Girardot."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13070110446351,
+          7.12172662991941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "VILLAS DE SAN IGNACIO",
+        "codigo_dane": 168001007767,
+        "correo": "ievillas@bucaramanga.edu.co",
+        "direccion": "Carrera 54 W N° 37 – 46 Barrio La\nInmaculada."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.16448805522722,
+          7.102874344030466
+        ]
+      }
+    }
+  ]
+};
+
+  L.geoJSON(geojsonData, {
+    onEachFeature: function (feature, layer) {
+      layer.bindPopup("<strong>" + feature.properties.nombre + "</strong>");
+    }
+  }).addTo(map);
+</script>
+
+</body>
+</html>

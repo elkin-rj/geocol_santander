@@ -1,4 +1,1365 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05977,
+          7.00913
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO VALLE DEL RIO DE ORO",
+        "direccion": "VEREDA LA UNION PAJONAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.006326,
+          6.9176961
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA LOS CUROS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA HOLANDA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA PLANADAS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA FALTRIQUERA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  NUESTRO  SE¿OR DE LA BUENA ESPERANZA",
+        "direccion": "VEREDA LA ESPERANZA MESA DE RUITOQUE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.416147,
+          6.676329
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA LOS MONOS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA LA VEGA KILOMETRO 10 VIA MALAGA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DE PROMOCION SOCIAL",
+        "direccion": "VEREDA GUATIGUARA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO VICTOR FELIX GOMEZ NOVA",
+        "direccion": "CARRERA 3A # 1 B-16 CAMPO VERDE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04932816531694,
+          6.988484327131602
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO    CABECERA DEL LLANO",
+        "direccion": "CALLE 7 # 16-20 BARRIO CABECERADEL LLANO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9033953,
+          7.3411356
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO MUNICIPAL CARLOS VICENTE REY",
+        "direccion": "CARRERA 19 #  2 - 30 BARRIO SAN FRANCISCO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05082809007138,
+          6.988786481377677
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO HUMBERTO GOMEZ NIGRINIS",
+        "direccion": "CALLE 6 13 42 ",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.048461,
+          6.987798
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO BALBINO GARCIA",
+        "direccion": "CALLE 8 # 9 - 50",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO LUIS CARLOS GALAN SARMIENTO DEL SUR",
+        "direccion": "DIAGONAL 14 # 11 -72 NUEVA CANDELARIA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "ESCUELA NORMAL SUPERIOR DE PIEDECUESTA",
+        "direccion": "CRA 15 # 4-43 SAN CRISTOBAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05010361557049,
+          6.9879346158615
+        ]
+      },
+      "properties": {
+        "nombreee": "CENTRO  DE COMERCIO -",
+        "direccion": "CARRERA 8 9 25",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DE PROMOCION SOCIAL",
+        "direccion": "VEREDA GUATIGUARA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0537081456472,
+          6.986686542437243
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO VICTOR FELIX GOMEZ NOVA",
+        "direccion": "CARRERA 4 # 2N-46",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04953,
+          6.98789
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO MUNICIPAL CARLOS VICENTE REY",
+        "direccion": "CALLE 1NC #- 16 A - 44 SAN CARLOS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.051109,
+          6.990509
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO BALBINO GARCIA",
+        "direccion": "CALLE 4 # 10 - 38",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04604704652135,
+          6.98894148759346
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO BALBINO GARCIA",
+        "direccion": "CARRERA 13 # 10 -  50",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO LUIS CARLOS GALAN SARMIENTO DEL SUR",
+        "direccion": "VEREDA LOS CISNES",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0537081456472,
+          6.986686542437243
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO LUIS CARLOS GALAN SARMIENTO DEL SUR",
+        "direccion": "CARRERA 4 # 17-20",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04695073813848,
+          6.986724334149007
+        ]
+      },
+      "properties": {
+        "nombreee": "CENTRO  DE COMERCIO",
+        "direccion": "CALLE 10 # 10 05",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO VALLE DEL RIO DE ORO",
+        "direccion": "VEREDA PAJONAL MONTEREDONDO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA RIO NEGRO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA LA CABRERA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA LA URGUA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.97732501467641,
+          6.8442514
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "CORREGIMIENTO DE UMPALA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA EL FICAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.06356622611577,
+          7.01169565
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "CORREGIMIENTO PESCADERO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.416147,
+          6.676329
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LOS CUROS",
+        "direccion": "VEREDA LA AGUADA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA LA NAVARRA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA EL DUENDE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75616972509286,
+          6.1986083
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA LA ESPERANZA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9231681,
+          5.8856504
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA SAN MIGUEL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA LOS CACAOS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  HOLANDA",
+        "direccion": "VEREDA MESITAS DE SA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA PINCHOTE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA ZARAGOZA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA SAN PEDRO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA LA NEVERA KM",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA EL CANELO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA EL POLO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "KILOMETRO 43 VIA A PAMPLONA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA MIRAFLORES",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.00589,
+          7.03324
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA CRISTALES",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "VEREDA LA LOMA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.99829,
+          7.01617
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DEL ORIENTE",
+        "direccion": "CORREGIMIENTO SEVILLA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0465509,
+          4.9155031
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA SAN LUIS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA EL LIMONAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6008111,
+          5.3179974
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA LA PALMA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA MENSULI CHIQUITO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA EL CUBIN",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6449098,
+          5.4812571
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VERDEA EL GRANADILLO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA MENSULI",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA LA MATA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6449098,
+          5.4812571
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. FALTRIQUERA",
+        "direccion": "VEREDA EL GRANADILLO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  NUESTRO  SEÑOR DE LA BUENA ESPERANZA",
+        "direccion": "VEREDA BUENOS AIRES MESA DE RUITOQUE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO  NUESTRO  SEÑOR DE LA BUENA ESPERANZA",
+        "direccion": "VEREDA LAS COLINAS MESA DE RUITOQUE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA GUAMO GRANDE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA EL MANSITO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA EL VOLADOR",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA EL BLANQUISCAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA EL GUAMO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA SAN FRANCISCO",
+        "direccion": "VEREDA SAN FRANCISCO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.970249,
+          6.959701
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA CARTAGENA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.976862,
+          6.915333
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA ALTO DE VACAS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.32802206616556,
+          6.57467525
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA LA CHORRERA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.965642,
+          7.297341
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA EL ALTO DE LA CUCHILLA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA CHUCURI",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58691316916003,
+          6.04733505
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. LA VEGA",
+        "direccion": "VEREDA SAN ISIDRO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DE PROMOCION SOCIAL",
+        "direccion": "VEREDA GUATIGUARA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO DE PROMOCION SOCIAL",
+        "direccion": "VEREDA GUATIGUARA",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO    CABECERA DEL LLANO",
+        "direccion": "VEREDA MESETA GRANDE",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO    CABECERA DEL LLANO",
+        "direccion": "VEREDA LAS AMARILLAS",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04346312558458,
+          6.990063372486627
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO MUNICIPAL CARLOS VICENTE REY",
+        "direccion": "CARRERA 16 # 2 - 30 SAN CRISTOBAL",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0504129,
+          6.9874808
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO LUIS CARLOS GALAN SARMIENTO DEL SUR",
+        "direccion": "VEREDA BARROBLANCO",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05137840453334,
+          6.993833507148099
+        ]
+      },
+      "properties": {
+        "nombreee": "CENTRO  DE COMERCIO ",
+        "direccion": "CARRERA 8 12 48",
+        "municipio": "Piedecuesta",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    }
+  ]
 }

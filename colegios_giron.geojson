@@ -1,4 +1,991 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5792606,
+          7.4304828
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA LLANO GRANDE",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA AGUADA DE CEFERINO",
+        "direccion": "VEREDA AGUADA DE CEFERINO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. SAN JOSE DE MOTOSO.",
+        "direccion": "VEREDA MOTOSO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA COLEGIO MARTA",
+        "direccion": "VEREDA MARTA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO MIGUEL SANCHEZ HINESTROZA",
+        "direccion": "VEREDA ACAPULCO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA ANGULO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA SORACA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA BARBOSA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA CHOCOITA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA PEÑAS",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA PALOGORDO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO INTEGRADO LLANO GRANDE",
+        "direccion": "VEREDA CHOCOA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17678559672397,
+          7.006556777653662
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA AGUADA DE CEFERINO",
+        "direccion": "VEREDA RIO DE ORO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA AGUADA DE CEFERINO",
+        "direccion": "VEREDA EL CARRIZAL",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA AGUADA DE CEFERINO",
+        "direccion": "VEREDA BOCAS",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17043722733028,
+          7.0839304
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA AGUADA DE CEFERINO",
+        "direccion": "BARRIO CONVIVIR",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. SAN JOSE DE MOTOSO.",
+        "direccion": "VEREDA ALTAMIRA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.327778,
+          7.076389
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA COLEGIO MARTA",
+        "direccion": "VEREDA LA PARROQUIA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA COLEGIO MARTA",
+        "direccion": "VEREDA MARTA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA COLEGIO MARTA",
+        "direccion": "VEREDA MARTA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.327778,
+          7.076389
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUCION EDUCATIVA COLEGIO MARTA",
+        "direccion": "VEREDA LA PARROQUIA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO MIGUEL SANCHEZ HINESTROZA",
+        "direccion": "VEREDA EL PILON",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO MIGUEL SANCHEZ HINESTROZA",
+        "direccion": "VEREDA VALLE DE RUITOQUE",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.81566,
+          7.99197
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA GUAIMARAL",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA ALTOS DEL LLANO GRANDE",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA POTRERO CERRADO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7800169,
+          6.9753422
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA LA ALDEA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA CANTALTA",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO ANGULO",
+        "direccion": "VEREDA EL PANTANO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.16981,
+          7.0682
+        ]
+      },
+      "properties": {
+        "nombreee": "ROBERTO GARCIA PEÑA",
+        "direccion": "VEREDA RIO FRIO ANILLO VIAL",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO JUAN CRISTOBAL  MARTINEZ",
+        "direccion": "VEREDA LLANADAS",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "RURAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.154204,
+          7.063503
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO DIANA TURBAY QUINTERO",
+        "direccion": "CALLE 105 # 9 40",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1706197536348,
+          7.068998013674267
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO FACUNDO NAVAS MANTILLA",
+        "direccion": "CALLE 32 # 25-49",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.167164,
+          7.057407
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "CALLE 13A # 19A - 50",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.12355408968084,
+          7.080760312917483
+        ]
+      },
+      "properties": {
+        "nombreee": "ROBERTO GARCIA PEÑA",
+        "direccion": "CARRERA 15 36-01",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17061452402183,
+          7.068521189366057
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO JUAN CRISTOBAL  MARTINEZ",
+        "direccion": "CARRERA 27 18 27",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO SAN JUAN DE GIRON",
+        "direccion": "CARRERA 25 N# 31-08",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.169525,
+          7.067835
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO INTEGRADO FRANCISCO SERRANO MUÑOZ",
+        "direccion": "CALLE 31 25 30",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.170168,
+          7.076418
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO NIEVES CORTES PICON SEDE A",
+        "direccion": "CALLE 49 26 44",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO MARIO MORALES DELGADO",
+        "direccion": "KILOMETRO 2 VÍA ZAPATOCA - CIUDADELA NUEVO GIRÓN",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO FACUNDO NAVAS MANTILLA",
+        "direccion": "DIAGONAL  54 A  # 23-25 SAN ANTONIO DEL CARRIZAL",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO FACUNDO NAVAS MANTILLA",
+        "direccion": "CALLE 56B # 19-08 EL PALENQUE",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "TRANSVERSAL 20 # 10-20 BARRIO MIRADOR DE ARENALES",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.169482,
+          7.055261
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "CALLE 10B # 25 - 31 VILLAS DE SAN JUAN",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.16525723328428,
+          7.072872687183739
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "CARRERA 19 13 C 03",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.16525723328428,
+          7.072872687183739
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "CARRERA 19 # 13A - 19",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "ROBERTO GARCIA PEÑA",
+        "direccion": "BOULEVAR DE LA CEIBA # 22A-15",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.165662,
+          7.07041
+        ]
+      },
+      "properties": {
+        "nombreee": "ROBERTO GARCIA PEÑA",
+        "direccion": "CALLE 35 21 02",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17061452402183,
+          7.068521189366057
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO JUAN CRISTOBAL  MARTINEZ",
+        "direccion": "CARRERA 27 # 18-27",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17061452402183,
+          7.068521189366057
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO JUAN CRISTOBAL  MARTINEZ",
+        "direccion": "CARRERA 27 # 18-27",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17132901405664,
+          7.065547899857726
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO SAN JUAN DE GIRON",
+        "direccion": "CARRERA 28 # 30-49",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17315970653982,
+          7.061528526149644
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO INTEGRADO FRANCISCO SERRANO MUÑOZ",
+        "direccion": "CARRERA 30 # 37-24",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1743598486719,
+          7.067884612287861
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO INTEGRADO FRANCISCO SERRANO MUÑOZ",
+        "direccion": "CALLE 31 # 26-71",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO FACUNDO NAVAS MANTILLA",
+        "direccion": "CALLE 60 # 16E-42 JUAN PABLO II",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1689196,
+          7.0732333
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO LUIS CARLOS GALÁN SARMIENTO",
+        "direccion": "CARRERA 25 # 3-10 EL PROGRESO",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.17446,
+          7.074273
+        ]
+      },
+      "properties": {
+        "nombreee": "COLEGIO SAN JUAN DE GIRON",
+        "direccion": "CALLE 44 # 31 A-08",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.178709,
+          7.074702
+        ]
+      },
+      "properties": {
+        "nombreee": "INSTITUTO INTEGRADO FRANCISCO SERRANO MUÑOZ",
+        "direccion": "CALLE 44 # 34 A -30",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1686344,
+          7.0721282
+        ]
+      },
+      "properties": {
+        "nombreee": "I.E. COLEGIO NIEVES CORTES PICON SEDE A",
+        "direccion": "CALLE 39 # 21-06",
+        "municipio": "Girón",
+        "departamento": "Santander",
+        "zona": "URBANA"
+      }
+    }
+  ]
 }
